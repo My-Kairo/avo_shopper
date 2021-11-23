@@ -8,3 +8,27 @@ body {
 	margin: auto;
 	width: 80%;
 }
+
+.deals {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.avo-1 {
+	width: 20%;
+}
+.avo-2 {
+	width: 20%;
+}.avo-3 {
+	width: 20%;
+}
+.avo-4 {
+	width: 20%;
+}
+.avo-5 {
+	width: 20%;
+}
+img {
+	height: 45px;
+	width: 60px;
+}
