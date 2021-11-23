@@ -70,9 +70,10 @@ app.get('/selectshop', async function(req, res){
   res.render('selectshop')
 })
 
-app.post('/', async function(req, res){
-  
+app.get('/add', async function(req, res){
+  res.render('add')
 })
+
 
 // start  the server and start listening for HTTP request on the PORT number specified...
 let PORT = process.env.PORT || 1100;
