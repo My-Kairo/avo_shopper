@@ -64,6 +64,16 @@ app.get('/', function(req, res) {
 	});
 });
 
+app.get('/selectshop', async function(req, res){
+
+  console.log()
+  res.render('selectshop')
+})
+
+app.post('/', async function(req, res){
+  
+})
+
 // start  the server and start listening for HTTP request on the PORT number specified...
 let PORT = process.env.PORT || 1100;
 app.listen(PORT, function() {

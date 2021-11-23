@@ -4,3 +4,4 @@ insert into shop (id, name) values (3, 'Shopryte');
 insert into shop (id, name) values (4, 'Pick n Play');
 insert into shop (id, name) values (5, 'Fruit lovers');
 
+insert into avo_deal (id, price) values (1, '10.2');
